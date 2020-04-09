@@ -1,0 +1,1 @@
+import './dmnlint-config-error.json';
