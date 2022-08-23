@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/nikku/rollup-plugin-dmnlint.git"
+    "url": "git+ssh://git@github.com/bpmn-io/rollup-plugin-dmnlint.git"
   },
   "keywords": [
     "dmnlint",
