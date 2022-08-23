@@ -3,7 +3,7 @@ const compileConfig = require('dmnlint/lib/support/compile-config');
 const { createFilter } = require('@rollup/pluginutils');
 
 
-function bpmnlint(options = {}) {
+function dmnlint(options = {}) {
 
   let {
     include,
@@ -17,7 +17,7 @@ function bpmnlint(options = {}) {
   const filter = createFilter(include, exclude);
 
   return {
-    name: 'bpmnlint',
+    name: 'dmnlint',
 
     async transform(code, id) {
 
@@ -53,4 +53,4 @@ function bpmnlint(options = {}) {
   };
 }
 
-module.exports = bpmnlint;
+module.exports = dmnlint;
